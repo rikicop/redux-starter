@@ -1,0 +1,17 @@
+Coding With Mosh
+
+Redux Tutorial - Learn Redux from Scratch
+
+https://www.youtube.com/watch?v=poQXNp9ItL4
+
+Quedé en minuto 23 Te esta enseñando javascript
+
+28:28 curry
+
+Acuerdate que puedes correr el projecto así:
+ricardo@ricardo-mint:~/React/redux-starter$ yarn start
+yarn run v1.22.5
+$ webpack-dev-server --config ./webpack.config.js
+ℹ ｢wds｣: Project is running at http://localhost:9000/
+
+y después ves la consola

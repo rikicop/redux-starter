@@ -1,19 +1,13 @@
-import {compose,pipe } from 'lodash/fp'
+import store from "./store";
+import {bugAdded, bugRemoved, bugResolved} from "./actions"
 
-let input = "   JavaScript   ";
+store.dispatch(bugAdded("Bug 1"));
+store.dispatch(bugAdded("Bug 2"));
+store.dispatch(bugAdded("Bug 34"));
+store.dispatch(bugResolved(1));
 
-const trim = str =>str.trim()
-//Template String
-//const wrapInDiv = str => `<div>${str}</div>`;
-//const wrapInSpan = str => `<span>${str}</span>`;
 
-const wrap = type => str => `<${type}>${str}<${type}>`
+//store.dispatch(bugRemoved(1));
 
-const toLowerCase = str => str.toLowerCase();
 
-//const result = wrapInDiv(toLowerCase(trim(input)));
-
-const transform = pipe(trim,toLowerCase, wrap("span"));
-//transform(input);
-
-console.log(transform(input));
+console.log(store.getState());

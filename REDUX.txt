@@ -16,4 +16,25 @@ $ webpack-dev-server --config ./webpack.config.js
 
 y después ves la consola
 
-Quedé minuto 31
+Quedé minuto 31 curry ---> como pasar varios parametros a travez de de flechas
+y no comas(str,type) --> type => str =>
+
+
+Minuto 43 SPREAD OPERATOR ... (Del 46 al 50 esta buenísimo)
+
+Quedé en minuto 50, puedes avanzar en de diez en diez o dos horas
+
+
+Repasa del 57:35 hasta 1:10
+
+
+Que es payload, es mejor useReducer???
+
+
+Quedaste en 1:10 , puedes avanzar de 5 en 5
+
+Quedaste en 1:19 pero deberías repasar desde el 1:10
+
+Lograste Hacer unas Modificaciones muy Buenas.
+
+Quedaste 1:29:30 secs
